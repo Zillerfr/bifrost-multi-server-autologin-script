@@ -29,7 +29,7 @@ Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se t
      * *Exemple* : `"C:\...\Launch_Bifrost_WithParams.bat" "MH Tahiti"`
    * Cliquez sur **Changer d'icône**, puis sur **Parcourir** pour sélectionner l'icône officielle de Marvel Heroes ici :
      * `SteamLibrary\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win64\MarvelHeroesOmega.exe`
-  * Une fois un premier raccourcis créé, le plus rapide est de copier ce raccourcis, le renommer et modifier le nom du serveur dans les **Propriétés** à la fin du champ **Cible**
+   * Une fois un premier raccourcis créé, le plus rapide est de copier ce raccourcis, le renommer et modifier le nom du serveur dans les **Propriétés** à la fin du champ **Cible**
 
 ---
 
@@ -56,7 +56,7 @@ Place these files into your game's root folder (the same directory as `Bifrost.e
      * *Example*: `"C:\...\Launch_Bifrost_WithParams.bat" "MH Tahiti"`
    * Click **Change Icon**, then **Browse** to find the official Marvel Heroes icon here:
      * `SteamLibrary\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win64\MarvelHeroesOmega.exe`
-  * Once the first shortcut is created, the fastest way is to copy this shortcut, rename it, and modify the server name in the **Properties** at the end of the **Target** field.
+   * Once the first shortcut is created, the fastest way is to copy this shortcut, rename it, and modify the server name in the **Properties** at the end of the **Target** field.
 
 ---
 
