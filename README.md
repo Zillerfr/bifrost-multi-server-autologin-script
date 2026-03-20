@@ -1,2 +1,70 @@
-# bifrost-multi-server-autologin-script
-Script pour pouvoir utiliser l'auto login de Bifrost sur plusieurs serveurs
+# Bifrost Config Switcher
+
+Ce projet permet de changer rapidement la configuration de connexion (Serveur, Email, Mot de passe) de Bifrost avant de lancer le jeu. Il automatise la mise à jour des fichiers JSON et calcule l'index du serveur sélectionné.
+
+This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game. It automates JSON updates and calculates the selected server's index.
+
+---
+
+## 🇫🇷 Français (French)
+
+### 📋 Installation
+Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se trouve `Bifrost.exe`) :
+* `Choose_Bifrost_Server.ps1` : Le script principal (moteur).
+* [cite_start]`Launch_Bifrost_WithParams.bat` : Le fichier lanceur. [cite: 2]
+* [cite_start]`serversconfig.txt` : Votre base de données de comptes et serveurs. [cite: 1]
+
+### ⚙️ Configuration
+1. [cite_start]**Le fichier `serversconfig.txt`** : [cite: 1]
+   * Ouvrez ce fichier avec le Bloc-notes.
+   * Ajoutez vos lignes sous le format : `NomDuServeur,Email,MotDePasse`.
+   * **Important** : Le "NomDuServeur" doit être exactement le même que celui affiché dans la liste des serveurs du jeu (`Bifrost.ServerList.json`).
+
+2. **Création des raccourcis personnalisés** :
+   * Faites un **clic droit** sur `Launch_Bifrost_WithParams.bat` > **Créer un raccourci**.
+   * Faites un **clic droit** sur le nouveau raccourci > **Propriétés**.
+   * Dans l'onglet **Raccourci**, repérez le champ **Cible**.
+   * À la fin du texte, ajoutez un espace puis le nom du serveur entre guillemets.
+     * *Exemple* : `"C:\...\Launch_Bifrost_WithParams.bat" "MH Tahiti"`
+   * Cliquez sur **Changer d'icône**, puis sur **Parcourir** pour sélectionner l'icône officielle de Marvel Heroes ici :
+     * `SteamLibrary\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win64\MarvelHeroesOmega.exe`
+
+---
+
+## 🇺🇸 English
+
+### 📋 Installation
+Place these files into your game's root folder (the same directory as `Bifrost.exe`):
+* `Choose_Bifrost_Server.ps1`: The main script engine.
+* [cite_start]`Launch_Bifrost_WithParams.bat`: The launcher file. [cite: 2]
+* [cite_start]`serversconfig.txt`: Your accounts and servers database. [cite: 1]
+
+### ⚙️ Configuration
+1. [cite_start]**The `serversconfig.txt` file**: [cite: 1]
+   * Open this file with Notepad.
+   * Add your data using this format: `ServerName,Email,Password`.
+   * **Important**: The "ServerName" must exactly match the name shown in the game's server list (`Bifrost.ServerList.json`).
+
+2. **Creating Custom Shortcuts**:
+   * **Right-click** on `Launch_Bifrost_WithParams.bat` > **Create shortcut**.
+   * **Right-click** the new shortcut > **Properties**.
+   * In the **Shortcut** tab, find the **Target** field.
+   * At the end of the line, add a space and then the server name in quotes.
+     * *Example*: `"C:\...\Launch_Bifrost_WithParams.bat" "MH Tahiti"`
+   * Click **Change Icon**, then **Browse** to find the official Marvel Heroes icon here:
+     * `SteamLibrary\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win64\MarvelHeroesOmega.exe`
+
+---
+
+### 🚀 Utilisation / Usage
+* **Mode Raccourci** : Double-cliquez sur votre raccourci personnalisé pour configurer et lancer le jeu en un seul clic.
+* **Mode Manuel** : Lancez le fichier `.bat` directement pour choisir un serveur dans une liste interactive.
+
+* **Shortcut Mode**: Double-click your custom shortcut to configure and launch the game in one click.
+* **Manual Mode**: Run the `.bat` file directly to pick a server from an interactive list.
+
+---
+
+### ⚠️ Dépannage / Troubleshooting
+Si le script ne se lance pas, ouvrez PowerShell en tant qu'administrateur et tapez la commande suivante :
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
