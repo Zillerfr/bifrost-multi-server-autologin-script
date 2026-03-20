@@ -19,6 +19,7 @@ Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se t
    * Ouvrez ce fichier avec le Bloc-notes.
    * Ajoutez vos lignes sous le format : `NomDuServeur,Email,MotDePasse`.
    * **Important** : Le "NomDuServeur" doit être exactement le même que celui affiché dans la liste des serveurs du jeu (`Bifrost.ServerList.json`).
+   * **Important** : Les accents dans le mot de passe peuvent empêcher Bifrost de fonctionner (il s'ouvre et se ferme tout de suite), n'en mettez pas.
 
 2. **Création des raccourcis personnalisés** :
    * Faites un **clic droit** sur `Launch_Bifrost_WithParams.bat` > **Créer un raccourci**.
@@ -44,6 +45,7 @@ Place these files into your game's root folder (the same directory as `Bifrost.e
    * Open this file with Notepad.
    * Add your data using this format: `ServerName,Email,Password`.
    * **Important**: The "ServerName" must exactly match the name shown in the game's server list (`Bifrost.ServerList.json`).
+   * **Important**: Accents in the password can prevent Bifrost from working properly (the program will open and close immediately). Please ensure you do not use any accented characters.
 
 2. **Creating Custom Shortcuts**:
    * **Right-click** on `Launch_Bifrost_WithParams.bat` > **Create shortcut**.
@@ -67,4 +69,7 @@ Place these files into your game's root folder (the same directory as `Bifrost.e
 
 ### ⚠️ Dépannage / Troubleshooting
 Si le script ne se lance pas, ouvrez PowerShell en tant qu'administrateur et tapez la commande suivante :
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+If the script does not run, open PowerShell as administrator and type the following command :
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
