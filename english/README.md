@@ -1,7 +1,7 @@
 
 # Bifrost Config Switcher
 
-This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game. (English documentation is below)
+This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game.
 
 ---
 
