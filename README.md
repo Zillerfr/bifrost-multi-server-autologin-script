@@ -11,11 +11,11 @@ This project allows you to quickly swap Bifrost connection settings (Server, Ema
 ### 📋 Installation
 Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se trouve `Bifrost.exe`) :
 * `Choose_Bifrost_Server.ps1` : Le script principal (moteur).
-* [cite_start]`Launch_Bifrost_WithParams.bat` : Le fichier lanceur. [cite: 2]
-* [cite_start]`serversconfig.txt` : Votre base de données de comptes et serveurs. [cite: 1]
+* `Launch_Bifrost_WithParams.bat` : Le fichier lanceur.
+* `serversconfig.txt` : Votre base de données de comptes et serveurs.
 
 ### ⚙️ Configuration
-1. [cite_start]**Le fichier `serversconfig.txt`** : [cite: 1]
+1. **Le fichier `serversconfig.txt`** :
    * Ouvrez ce fichier avec le Bloc-notes.
    * Ajoutez vos lignes sous le format : `NomDuServeur,Email,MotDePasse`.
    * **Important** : Le "NomDuServeur" doit être exactement le même que celui affiché dans la liste des serveurs du jeu (`Bifrost.ServerList.json`).
@@ -36,11 +36,11 @@ Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se t
 ### 📋 Installation
 Place these files into your game's root folder (the same directory as `Bifrost.exe`):
 * `Choose_Bifrost_Server.ps1`: The main script engine.
-* [cite_start]`Launch_Bifrost_WithParams.bat`: The launcher file. [cite: 2]
-* [cite_start]`serversconfig.txt`: Your accounts and servers database. [cite: 1]
+* `Launch_Bifrost_WithParams.bat`: The launcher file.
+* `serversconfig.txt`: Your accounts and servers database.
 
 ### ⚙️ Configuration
-1. [cite_start]**The `serversconfig.txt` file**: [cite: 1]
+1. **The `serversconfig.txt` file**: 
    * Open this file with Notepad.
    * Add your data using this format: `ServerName,Email,Password`.
    * **Important**: The "ServerName" must exactly match the name shown in the game's server list (`Bifrost.ServerList.json`).
