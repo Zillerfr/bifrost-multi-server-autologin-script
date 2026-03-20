@@ -1,8 +1,8 @@
 # Bifrost Config Switcher
 
-Ce projet permet de changer rapidement la configuration de connexion (Serveur, Email, Mot de passe) de Bifrost avant de lancer le jeu. Il automatise la mise à jour des fichiers JSON et calcule l'index du serveur sélectionné.
+Ce projet permet de changer rapidement la configuration de connexion (Serveur, Email, Mot de passe) de Bifrost avant de lancer le jeu.
 
-This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game. It automates JSON updates and calculates the selected server's index.
+This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game.
 
 ---
 
