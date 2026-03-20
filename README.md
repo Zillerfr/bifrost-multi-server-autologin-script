@@ -2,7 +2,7 @@
 
 Ce projet permet de changer rapidement la configuration de connexion (Serveur, Email, Mot de passe) de Bifrost avant de lancer le jeu.
 
-This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game.
+This project allows you to quickly swap Bifrost connection settings (Server, Email, Password) before launching the game. (English documentation is below)
 
 ---
 
