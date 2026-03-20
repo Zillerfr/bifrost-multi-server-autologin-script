@@ -76,3 +76,4 @@ Place the following files into your game's root folder (where `Bifrost.exe` is l
 If the script does not run, open PowerShell as an administrator and type the following command:
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
