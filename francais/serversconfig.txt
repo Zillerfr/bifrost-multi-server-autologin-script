@@ -1,0 +1,3 @@
+Nom Serveur 1,login.serveur.1,PassServer1
+Nom Serveur 2,login.serveur.2,PassServer2
+Nom Serveur 3,login.serveur.3,PassServer3
