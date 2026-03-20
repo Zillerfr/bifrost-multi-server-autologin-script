@@ -31,6 +31,13 @@ Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se t
      * `SteamLibrary\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win64\MarvelHeroesOmega.exe`
    * Une fois un premier raccourcis créé, le plus rapide est de copier ce raccourcis, le renommer et modifier le nom du serveur dans les **Propriétés** à la fin du champ **Cible**
 
+### 🚀 Utilisation
+* **Mode Raccourci** : Double-cliquez sur votre raccourci personnalisé pour configurer et lancer le jeu en un seul clic.
+* **Mode Manuel** : Lancez le fichier `.bat` directement pour choisir un serveur dans une liste interactive.
+
+### ⚠️ Dépannage
+Si le script ne se lance pas, ouvrez PowerShell en tant qu'administrateur et tapez la commande suivante :
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 ---
 
 ## 🇺🇸 English
@@ -58,20 +65,10 @@ Place these files into your game's root folder (the same directory as `Bifrost.e
      * `SteamLibrary\steamapps\common\Marvel Heroes\UnrealEngine3\Binaries\Win64\MarvelHeroesOmega.exe`
    * Once the first shortcut is created, the fastest way is to copy this shortcut, rename it, and modify the server name in the **Properties** at the end of the **Target** field.
 
----
-
-### 🚀 Utilisation / Usage
-* **Mode Raccourci** : Double-cliquez sur votre raccourci personnalisé pour configurer et lancer le jeu en un seul clic.
-* **Mode Manuel** : Lancez le fichier `.bat` directement pour choisir un serveur dans une liste interactive.
-
+### Usage
 * **Shortcut Mode**: Double-click your custom shortcut to configure and launch the game in one click.
 * **Manual Mode**: Run the `.bat` file directly to pick a server from an interactive list.
 
----
-
-### ⚠️ Dépannage / Troubleshooting
-Si le script ne se lance pas, ouvrez PowerShell en tant qu'administrateur et tapez la commande suivante :
-`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-
+### ⚠️ Troubleshooting
 If the script does not run, open PowerShell as administrator and type the following command :
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
