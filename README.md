@@ -35,9 +35,10 @@ Déposez les fichiers suivants dans le dossier racine de votre jeu (là où se t
 * **Mode Raccourci** : Double-cliquez sur votre raccourci personnalisé pour configurer et lancer le jeu en un seul clic.
 * **Mode Manuel** : Lancez le fichier `.bat` directement pour choisir un serveur dans une liste interactive.
 
-### ⚠️ Dépannage
+### ⚠️ Dépannage 
 Si le script ne se lance pas, ouvrez PowerShell en tant qu'administrateur et tapez la commande suivante :
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
 ---
 
 ## 🇺🇸 English
